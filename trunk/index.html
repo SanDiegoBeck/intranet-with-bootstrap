@@ -1,28 +1,283 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-	<title>Home - Intranet</title>
-	<!-- Stylesheet -->
-	<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen" />
-	<link href="./css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 101 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href ="css/custom.css" rel="stylesheet" media="screen" />
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid header btn-info">
+				<div class="span9">
+					<section class="logo">
+						<img height="80" width="374" src="img/web-essentials-logo.png" />
+					</section>
+				</div>
+				<div class="span3">
+					<div id="login-panel">
+						Logged in as :&nbsp;chanthorn&nbsp; | &nbsp;
+						<a href="#">Logout</a>
+					</div>
+					<div class="input-append search-form">
+						<input id="appendedInput" type="text" placeholder="search...">
+						<span class="add-on"><i class="icon-search"></i></span>
+					</div>
+				</div>
+			</div>
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<ul class="nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Downloads</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="row-fluid">
+					<!-- man start -->
+					<div class="span6">
+						<div class="btn-info">
+							<h3 class="muted">Project List</h3>
+						</div>
+						<!-- Navigation start -->
+						<div class="navbar list-navbar">
+							<div class="navbar-inner">
+								<nav class="nav-collapse">
+									<ul class="nav pull-left">
+										<li class="active"><a href="/running/" title="Running">Running</a></li>
+										<li class="divider-vertical"></li>
+										<li><a href="/support-period/" title="Support Period">Support Period</a></li>
+										<li class="divider-vertical"></li>
+									</ul>
+									<ul class="nav pull-right">
+										<li class="download-all"><a href="#" title="Download CSV for all projects"><i class="icon-download-csv"></i></a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<!-- navigation end -->
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-</head>
-<body>
-	<!-- Content start -->
-	<div class="container">
-	</div>
-	<!-- Content end -->
-	<!-- Javascript -->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-</body>
+						<!-- search info start -->
+						<div class="row-fluid alert-info">
+							<div class="span6 data-table-info">
+								<p>Showing 1 to 10 of 74 entries</p>
+							</div>
+							<div class="span6">
+								<form class="form-search">
+									<label for="inputSearch">Search:</label>
+									<input type="text" id="inputSearch" value="" />
+								</form>
+							</div>
+						</div>
+						<!-- search info end -->
+
+						<!-- project list start -->
+						<table class="table table-striped">
+							<thead>
+								<tr class="btn-info">
+									<th>Project</th>
+									<th>Creation Date PM</th>
+									<th>Sales</th>
+									<th>Start Date</th>
+									<th><i class="icon-download"></i></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>013-004: ACE Media</td>
+									<td>05/02/13</td>
+									<td>visay</td>
+									<td>01/01/13</td>
+									<td>
+										<div class="btn-group btn-group-vertical">
+											<a href="#" title="" class="btn"><i class="icon-excel-x"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-f"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-nc"></i></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>013-004: ACE Media</td>
+									<td>05/02/13</td>
+									<td>visay</td>
+									<td>01/01/13</td>
+									<td>
+										<div class="btn-group btn-group-vertical">
+											<a href="#" title="" class="btn"><i class="icon-excel-x"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-f"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-nc"></i></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>013-004: ACE Media</td>
+									<td>05/02/13</td>
+									<td>visay</td>
+									<td>01/01/13</td>
+									<td>
+										<div class="btn-group btn-group-vertical">
+											<a href="#" title="" class="btn"><i class="icon-excel-x"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-f"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-nc"></i></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>013-004: ACE Media</td>
+									<td>05/02/13</td>
+									<td>visay</td>
+									<td>01/01/13</td>
+									<td>
+										<div class="btn-group btn-group-vertical">
+											<a href="#" title="" class="btn"><i class="icon-excel-x"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-f"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-nc"></i></a>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>013-004: ACE Media</td>
+									<td>05/02/13</td>
+									<td>visay</td>
+									<td>01/01/13</td>
+									<td>
+										<div class="btn-group btn-group-vertical">
+											<a href="#" title="" class="btn"><i class="icon-excel-x"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-f"></i></a>
+											<a href="#" title="" class="btn"><i class="icon-excel-nc"></i></a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="row-fluid alert-info">
+							<div class="span6">
+								<form class="form-horizontal">
+									Show
+									<select class="span3" id="selectOption">
+										<option value="10">10</option>
+										<option value="25" selected="selected">25</option>
+										<option value="50">50</option>
+										<option value="100">100</option>
+									</select>
+									entries
+								</form>
+							</div>
+							<div class="span6">
+								<div class="pagination pagination-mini custom-pagination">
+									<ul>
+										<li class="disabled"><a href="" title="">First</a></li>
+										<li class="disabled"><a href="" title="">Previous</a></li>
+										<li class="active"><a href="#" title="">1</a></li>
+										<li><a href="#" title="">2</a></li>
+										<li><a href="#" title="">3</a></li>
+										<li><a href="#" title="">4</a></li>
+										<li><a href="#" title="">5</a></li>
+										<li><a href="#" title="">Next</a></li>
+										<li><a href="#" title="">Last</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- project list end -->
+					</div>
+					<!-- man end -->
+
+					<!-- tonglin start -->
+					<div class="span6">
+						<div class="row-fluid">
+							<div class="span6">
+								<h2 class="breadcrumb">Upcoming Public Holidays</h2>
+								<p class="alert alert-info">01/01/13 New Year Day<br>
+									07/01/13 Victory Day</p>
+							</div>
+							<div class="span6">
+								<h2 class="breadcrumb">Emergency Information</h2>
+								<ul class="unstyled alert alert-info">
+									<li><a href="#">Flood - What to do?</a></li>
+									<li><a href="#">Fire - What to do?</a></li>
+									<li><a href="#">Burglary - What to do?</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="breadcrumb">
+							<h2>Latest News</h2>
+						</div>
+						<div class="row-fluid  alert-info">
+							<div class="span12">
+								<h3><a href="#">Web Essentials Brings TYPO3 to Barcamp Phnom Penh</a></h3>
+								<div class="row-fluid">
+									<div class="span3">
+										<img src="img/D_b634db5f91.jpg" class="img-polaroid">
+									</div>
+									<div class="span9">
+										<p>On October 22nd – 23rd, Barcamp Phnom Penh took place with more than 1500 people attending. As the only web development company in Cambodia to...</p>
+									</div>
+								</div>
+								<hr />
+								<p>
+									<span>04.12.2012</span><span>|</span><span>Job</span><span class="divider">|</span><span>created by vibol</span>
+								</p>
+							</div>
+						</div>
+						<br />
+						<div class="row-fluid alert-info">
+							<div class="span12">
+								<h3><a href="#">TYPO3 Internship Opportunity</a></h3>
+								<div class="row-fluid">
+									<div class="span3">
+										<img src="img/D_b634db5f91.jpg" class="img-polaroid">
+									</div>
+									<div class="span9">
+										<p>Are you seeking an opportunity to gain knowledge in web development with international projects and working in friendly environment? </p>
+									</div>
+								</div>
+								<hr />
+								<p>
+									<span>04.12.2012</span><span>|</span><span>Job</span><span class="divider">|</span><span>created by vibol</span>
+								</p>
+							</div>
+						</div>
+						<br>
+						<div class="row-fluid  alert-info">
+							<div class="span12">
+								<h3><a href="#">Web Essentials Joined BarCamp Angkor </a></h3>
+								<div class="row-fluid">
+									<div class="span3">
+										<img src="img/D_b634db5f91.jpg" class="img-polaroid">
+									</div>
+									<div class="span9">
+										<p>Christmas and New Year celebration is a very enjoyable and happy time for everybody. For Web Essentials, it is a special occasion to gather all staff...</p>
+									</div>
+								</div>
+								<hr />
+								<p>
+									<span>04.12.2012</span><span>|</span><span>Job</span><span class="divider">|</span><span>created by vibol</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- tonglin end -->
+				</div>
+			</div>
+			<div class="row-fluid btn-info">
+				<div class="span8">
+					<p>Copyright &copy; 2012 Web Essentials Co., Ltd. - A Social Business specialized in TYPO3 Website Design &amp; Development and TYPO3 Outsourcing &amp; Offshoring</p>
+				</div>
+				<div class="span2 offset2 success">
+					<a class="pull-right" href="mailto:web-essentials.asia">info@web-essentials.asia</a>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

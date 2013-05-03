@@ -1,0 +1,55 @@
+@charset "utf8";
+
+form {
+	margin: 0 0 5px;
+}
+
+/* navigation start */
+.list-navbar {
+	margin-bottom: 5px;
+}
+
+.navbar .pull-right .download-all a {
+	padding: 0;
+}
+/* navigation end */
+
+/* icon start */
+.icon-download-csv, .icon-download, .icon-excel-x, .icon-excel-f, .icon-excel-nc {
+	width: 16px;
+	height: 16px;
+	background-position: 0 0;
+}
+
+.icon-download-csv {
+	width: 36px;
+	height: 36px;
+	background-image: url("../img/csv.png");
+}
+
+.icon-download {
+	background-image: url("../img/download.png");
+}
+
+.icon-excel-x {
+	background-image: url("../img/xlsx.png");
+}
+
+.icon-excel-f {
+	background-image: url("../img/xlsx2.png");
+}
+
+.icon-excel-nc {
+	background-image: url("../img/xlsx_nc.png");
+}
+/* icon end */
+
+/* table start */
+.table th, .table td {
+	vertical-align: middle;
+}
+/* table end */
+
+.custom-pagination {
+	margin: 0;
+}

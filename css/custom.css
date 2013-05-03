@@ -1,4 +1,28 @@
 @charset "utf8";
+body {
+	font-size: 12px !important;
+}
+
+.navbar .nav {
+	float: right;
+}
+
+.container-fluid .header {
+	background: silver;
+	padding: 30px 0;
+}
+
+.container-fluid #login-panel, .container-fluid .search-form {
+	float: right;
+	margin-right: 20px;
+}
+
+.container-fluid .input-append.search-form {
+	margin-top: 10px;
+}
+.container-fluid .input-append.search-form input {
+	width: 150px;
+}
 
 form {
 	margin: 0 0 5px;
